@@ -1,0 +1,17 @@
+
+# dependencies
+/node_modules
+
+# ignore environment file
+.env
+
+#lock files
+package-lock.json
+yarn.lock
+
+
+#idea
+.idea/
+
+#log
+/log

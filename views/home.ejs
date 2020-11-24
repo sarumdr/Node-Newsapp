@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Todo</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link
+      href="vendor/bootstrap-4.1/bootstrap.min.css"
+      rel="stylesheet"
+      media="all"
+    />
+    
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/css-hamburgers/hamburgers.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/select2/select2.min.css"
+    />
+    <link
+      href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <script language="javascript" src="vendor/push.js"></script>
+    <script src="vendor/jquery-3.2.1.min.js"></script>
+    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/tilt/tilt.jquery.min.js"></script>
+
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="js/dashboard.js"></script>
+    <!-- Bootstrap --> 
+     <link rel="stylesheet" type="text/css"  href="/css/bootstrap.css">
+
+<!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css"  href="/css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      
+
+      <h2>Top Headlines</h2>
+      <br/>
+      <br/>
+      <div class="row">
+        <div
+          key="{index}"
+          class=" news_container"
+        >
+      </div>
+      </div>
+      <!-- <br/>
+      <ul class="pagination">
+            <li class="disabled"><a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Previous</span>
+            </a>
+            </li>
+            <li class="="active><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="sr-only">Next</span>
+            </a>
+            </li>
+      </ul> -->
+</div>
+
+    <section id="edittask" style="display: none">
+      <h1>Edit Headline</h1>
+      <form  class="form-inline editform " method="POST" action="/Edit1">
+        Headline:
+        <textarea
+          name="task"
+          id="editheadline"
+          class="form-control"
+          style="width: 40%; height: 100%; margin-right: 20px"
+        ></textarea>
+        <br />
+        <button id="update">Update</button>
+      </form>
+    </section>
+
+    <script src="vendor/jquery-3.2.1.min.js"></script>
+  </body>
+</html>
